@@ -1,0 +1,6 @@
+{
+  "name": "SeekhoStar - Kids Learning App",
+  "description": "Mobile-first educational learning web app for children with Hindi and English lessons, interactive quizzes, AI Teacher, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
