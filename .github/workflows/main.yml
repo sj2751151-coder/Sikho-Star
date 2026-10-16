@@ -29,13 +29,12 @@ jobs:
         run: npm run build
 
       - name: Add Android platform
-        run: npx cap add android
-
+        run: npx cap add android --config capacitor.config.json
       - name: Sync Android
         run: npx cap sync android
 
       - name: Build APK
-        run: |
+        run:
           cd android
           chmod +x gradlew
           ./gradlew assembleDebug
