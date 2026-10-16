@@ -1,9 +1,7 @@
-import type { CapacitorConfig } from '@capacitor/cli';
-
-const config: CapacitorConfig = {
+const config = {
   appId: 'com.seekhostar.kids',
   appName: 'SeekhoStar Kids',
-  webDir: 'dist',
+  webDir: 'dist'
 };
 
 export default config;
